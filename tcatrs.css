@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    //margin: 50px 250px 100px 250px;
+    background: #cfcfcf;
+    font-family: "Noto Serif";
+    font-size: 14pt;
+    color: #464646;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75em;
+    margin: 4em 0;
+    color: #af6345;
+    font-size: 0.9em;
+}
+
+page::before,
+page::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #af6345;
+}
+
+h1{
+    font-family: "Grenze";
+    font-size: 40pt;
+    color: #af6345;
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    padding: 50px;
+}
+
+.letter{
+    background: #c8c3bb;
+    padding: 50px 100px;
+    margin-top: 50px;
+}

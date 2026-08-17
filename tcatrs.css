@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    display: flex;
-    margin: 50px 250px 100px 250px;
+    margin: 0;
     background: #cfcfcf;
-    font-family: "Noto Serif";
-    font-size: 14pt;
+    font-family: "Noto Serif", serif;
+    font-size: 1rem;
+    line-height: 1.7;
     color: #464646;
 }
 
 main {
     flex: 1;
-    padding: 40px;
+    width: min(100% - 2rem, 800px);
+    margin: 3rem auto 5rem;
 }
 
-page{
+page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,20 +32,28 @@ page::after {
     border-top: 1px solid #af6345;
 }
 
-h1{
-    font-family: "Grenze";
-    font-size: 40pt;
+p {
+    line-height: 1.7;
+    text-indent: 1.5em;
+}
+
+h1 {
+    font-family: "Grenze", serif;
+    font-size: clamp(2.25rem, 7vw, 3.5rem);
+    line-height: 1.1;
     color: #af6345;
-    text-align:center;
+    text-align: center;
+    margin: 0 0 2rem;
 }
 
-h2{
-    text-align:center;
-    padding: 50px;
+h2 {
+     text-align: center;
+    margin: 4rem 0 2rem;
+    line-height: 1.2;
 }
 
-.letter{
+.letter {
     background: #c8c3bb;
-    padding: 50px 100px;
-    margin-top: 50px;
+    padding: 3rem clamp(1.25rem, 8vw, 6rem);
+    margin-top: 3rem;
 }

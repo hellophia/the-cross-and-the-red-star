@@ -9,6 +9,12 @@ body {
     color: #464646;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
 main {
     flex: 1;
     width: min(100% - 2rem, 800px);
